@@ -1,0 +1,20 @@
+img{
+    border-radius: 1px;
+}
+.fab {
+    margin: 0;
+    top: auto;
+    right: 40px;
+    bottom: 20px;
+    left: auto;
+    position: fixed;
+}
+.fab:hover {
+    background-color: #ffffff;
+}
+.MuiFab-circular {
+    transition: all .1s ease-in-out, border-radius 0s, height 0s;
+}
+.MuiFab-extended {
+    transition: all .1s ease-in-out, border-radius 0s, height 0s;
+}
