@@ -16,6 +16,13 @@ npm ci
 npm run dev
 ```
 
+Github token 입력(github api 사용 목적):
+
+```sh
+src/constants/const.js 에 Personal access token 입력
+
+export const GITHUB_TOKEN = 'YOUR-TOKEN'; 
+```
 페이지 라우터 목록:
 ```sh
 // Repository 검색 페이지
@@ -35,8 +42,8 @@ http://localhost:3001/issue
   - 로딩 구현
     - 클릭 가능한 버튼들 비활성화
     - 원형 로딩바 구현
-    
-  
+
+
 - ### search
   - 검색할 repository 명 입력 후 검색 버튼 클릭 or Enter
   - My_Repository에 등록하기/등록 해제 가능

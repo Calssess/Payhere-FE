@@ -1,5 +1,4 @@
-export const GITHUB_TOKEN =
-  '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';
+export const GITHUB_TOKEN = 'YOUR-TOKEN';
 export const ROW_PER_SEARCH_PAGE = 10;
 export const ROW_PER_ISSUES_PAGE = 12;
 export const RES_CODE_SUCCESS = 200;
