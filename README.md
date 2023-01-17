@@ -1,4 +1,3 @@
-
 ## How to build
 
 빌드 환경:
@@ -35,7 +34,6 @@ http://localhost:3001/repo
 http://localhost:3001/issue
 ```
 
-## 과제 설명
 - ### 공통 부분
   - Redux-saga 를 통한 상태관리 구현
   - Mui, emotion 을 통한 UI/UX 구현
